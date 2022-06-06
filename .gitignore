@@ -1,0 +1,12 @@
+﻿# Editor git version
+.vs/
+
+# Ncrucnh folder and files
+*.ncrunchsolution.user
+*.ncrunchproject
+*.ncrunchsolution
+_NCrunch_*
+
+# Debug/Release files
+*obj/
+*bin/
