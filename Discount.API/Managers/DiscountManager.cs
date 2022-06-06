@@ -39,7 +39,7 @@ public class DiscountManager : IDiscountManager
             // 4.For every $100 on the bill, there would be a $ 5 discount (e.g. for $ 990, you get $ 45 as a discount).
             else if (requestModel.Amount >= 100)
             {
-                responseModel.DiscountAmount = responseModel.Amount % 100 * 5;
+                responseModel.DiscountAmount = Math.Floor(responseModel.Amount / 100) * 5;
                 responseModel.FinalAmount = responseModel.Amount - responseModel.DiscountAmount;
             }
         }

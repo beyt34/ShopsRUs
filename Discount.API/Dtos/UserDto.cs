@@ -13,7 +13,7 @@ public class UserDto
         get
         {
             var diff = DateTime.Today.AddYears(-2);
-            return diff <= CreatedDate;
+            return diff >= CreatedDate;
         }
     }
 

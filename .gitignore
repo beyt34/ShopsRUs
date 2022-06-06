@@ -2,10 +2,10 @@
 .vs/
 
 # Ncrucnh folder and files
-*.ncrunchsolution.user
 *.ncrunchproject
+*.ncrunchproject.user
 *.ncrunchsolution
-_NCrunch_*
+*.ncrunchsolution.user
 
 # Debug/Release files
 *obj/
