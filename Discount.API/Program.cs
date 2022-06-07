@@ -10,7 +10,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // managers
-builder.Services.AddTransient<IUserManager, UserManager>();
+builder.Services.AddTransient<IInvoiceManager, InvoiceManager>();
 builder.Services.AddTransient<IDiscountManager, DiscountManager>();
 
 

@@ -2,11 +2,7 @@ namespace Discount.API.Dtos;
 
 public class UserDto
 {
-    public Guid Id { get; set; }
-
     public bool IsEmployee { get; set; }
-
-    public bool IsAffiliate { get; set; }
 
     public bool OldCustomer
     {
